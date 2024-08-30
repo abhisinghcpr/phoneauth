@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "586311412298",
+    "project_id": "flutter-practise-f6756",
+    "storage_bucket": "flutter-practise-f6756.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586311412298:android:633dbf214ce66bd32c14b3",
+        "android_client_info": {
+          "package_name": "com.example.practise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrlD8rX63YqNczGD-NplvAHCJ7zJt6ME0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
