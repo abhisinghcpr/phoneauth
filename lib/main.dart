@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:practise/phone.dart';
-import 'package:practise/verify.dart';
+import 'package:practise/home_screen.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -9,17 +9,13 @@ void main() async {
   runApp(MyApp());
 }
 
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       initialRoute: 'phone',
       debugShowCheckedModeBanner: false,
-      routes: {
-        'phone': (context) => MyPhone(),
-        'verify': (context) => MyVerify(),
-      },
+      home: BluetoothApp(),
     );
   }
 }
